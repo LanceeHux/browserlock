@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Personal Browser Lock",
+  "version": "1.0",
+  "description": "A custom PIN-protected browser lock extension.",
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "lock.html"
+  }
+}
